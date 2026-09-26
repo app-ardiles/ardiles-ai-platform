@@ -1,5 +1,5 @@
 import { authorize, ok, serverError } from "@/lib/http";
-import { getStockDataStatus } from "@/lib/stock";
+import { getStockDataStatus } from "@/lib/stock-status";
 
 export async function GET(request) {
   const denied = authorize(request);
